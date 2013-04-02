@@ -71,3 +71,7 @@ textarea#jp-carousel-comment-form-comment-field {
 	color: #333;
 	display: none;
 }
+
+footer[role="contentinfo"] a {
+color: #fff;
+}
