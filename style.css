@@ -8,30 +8,30 @@ Template: twentytwelve
 @import url("../twentytwelve/style.css");
 
 img.header-image {
-   border-radius:0;
-   box-shadow:0 0 0 rgba(0,0,0,0);
+	border-radius:0;
+   	box-shadow:0 0 0 rgba(0,0,0,0);
 }
 
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
-   border-bottom: 1px solid #EDEDED;
-   border-top: 1px solid #EDEDED;
-   display: inline-block !important;
-   text-align: center;
-   width: 100%;
+   	border-bottom: 1px solid #EDEDED;
+   	border-top: 1px solid #EDEDED;
+   	display: inline-block !important;
+   	text-align: center;
+   	width: 100%;
 }
 
 .site-header h1 {
-font-size: 26px;
-font-size: 1.857142857rem;
-line-height: 1.846153846;
-margin-bottom: 0;
-text-align: center;
-letter-spacing: 10px;
-font-weight: lighter;
+	font-size: 26px;
+	font-size: 1.857142857rem;
+	line-height: 1.846153846;
+	margin-bottom: 0;
+	text-align: center;
+	letter-spacing: 10px;
+	font-weight: lighter;
 }
 
 .site-header h1, .site-header h2 {
-text-align: center;
+	text-align: center;
 }
 
 #jp-carousel-comment-form {
@@ -61,4 +61,13 @@ textarea#jp-carousel-comment-form-comment-field {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         display: none;
+}
+
+.jp-carousel-image-meta {
+	background: #fafafa;
+	border: 1px solid #eee;
+	border-top-color: #f5f5f5;
+	border-left-color: #f5f5f5;
+	color: #333;
+	display: none;
 }
